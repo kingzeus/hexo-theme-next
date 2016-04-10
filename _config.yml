@@ -191,10 +191,6 @@ mathjax:
 #google_site_verification:
 
 
-
-tencent_analytics: 55046364
-
-
 # Google Analytics
 #google_analytics:
 
@@ -231,10 +227,18 @@ leancloud_visitors:
 
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 55046364
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
+
+# cdn
+cdn:
+  enable: true
+# bootcdn support: font-awesome,fancybox
+  server: bootcdn
+# 360cdn support:font_lato,fancybox,font-awesome(only 4.2.0)
+# server: 360cdn
 
 
 
